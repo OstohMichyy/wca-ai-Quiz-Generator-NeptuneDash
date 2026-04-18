@@ -73,9 +73,7 @@ quiz_generator/
 │
 ├── main.py              # Runs the program and handles user input
 ├── ai_generator.py      # Handles API requests and AI interaction
-├── utils.py             # Helper functions (optional)
-├── requirements.txt     # Dependencies
-└── README.md            # Documentation
+
 ```
 
 ---
@@ -118,7 +116,7 @@ python main.py
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add a graphical user interface (GUI)
 * Save quizzes as PDF or text files
@@ -146,4 +144,4 @@ This project was built as a beginner-friendly introduction to working with APIs 
 
 ---
 
-**Build, learn, and improve your Quiz Generator! 🚀**
+**Build, learn, and improve your Quiz Generator! **
