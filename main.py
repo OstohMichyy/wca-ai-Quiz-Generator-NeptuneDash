@@ -48,7 +48,7 @@ data = {
     "messages": [
         {"role": "user", "content": prompt}
     ],
-    "max_tokens": 1024
+    "max_tokens": 190
 }
 
 response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
