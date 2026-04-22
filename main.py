@@ -19,7 +19,7 @@ def get_headers():
 user_input = input("Enter a topic OR paste a paragraph: ")
 difficulty = input("Enter difficulty (easy/medium/hard): ")
 
-print("\n🚀 kindly wait Generating quiz...\n")
+print("\n kindly wait Generating quiz...\n")
 
 # Detect if it's a paragraph or topic
 if len(user_input.split()) > 20:
