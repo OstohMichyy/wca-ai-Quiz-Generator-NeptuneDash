@@ -39,3 +39,16 @@ Generate 5 {difficulty} multiple-choice questions about the topic: "{user_input}
 
 Each question should have 4 options (A, B, C, D) and show the correct answer.
 """
+#BACKEND DEVELOPER - API Request
+# ============================================================================
+headers = get_headers()
+
+data = {
+    "model": "gpt-3.5-turbo",
+    "messages": [
+        {"role": "user", "content": prompt}
+    ],
+    "max_tokens": 1024
+}
+
+response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
