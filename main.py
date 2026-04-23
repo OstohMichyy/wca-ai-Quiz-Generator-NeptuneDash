@@ -54,7 +54,7 @@ data = {
 response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
 
 # ============================================================================
-#
+
 # UI/UX LEAD - User Messages
 # ============================================================================
 # (Handled in lines 4, 21-23, and display below)
