@@ -52,10 +52,6 @@ data = {
 }
 
 response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
-import requests
-import json
-
-print("Yoo! welcome to Quiz Generator ")
 
 # ============================================================================
 #
