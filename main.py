@@ -19,6 +19,12 @@ def get_headers():
 #====================================================================
 
 
+#The logic that distinguishes between a paragraph and a topic using word count is clever and makes the quiz generator more flexible for different user inputs.
+
+#The prompt is clear and structured, guiding the AI to generate consistent multiple-choice questions with answers. This improves output quality.
+
+#To enhance performance, you could refine the prompt further by specifying formatting (e.g., numbering questions or enforcing a strict output structure).
+
 
 user_input = input("Enter a topic OR paste a paragraph: ")
 difficulty = input("Enter difficulty (easy/medium/hard): ")
