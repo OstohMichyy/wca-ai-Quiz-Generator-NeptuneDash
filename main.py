@@ -40,7 +40,11 @@ Generate 5 {difficulty} multiple-choice questions about the topic: "{user_input}
 Each question should have 4 options (A, B, C, D) and show the correct answer.
 """
 #BACKEND DEVELOPER - API Request
-# ============================================================================
+# Backend Developer – API Request Handling
+
+#The API request is correctly structured with headers and JSON payload, showing a good understanding of how to interact with external APIs.
+
+#Using "max_tokens": 190 is a good attempt to control output size, but it may sometimes cut off responses. Consider increasing or dynamically adjusting it
 headers = get_headers()
 
 data = {
