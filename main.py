@@ -82,3 +82,4 @@ if response.status_code == 200:
 else:
     print("Error: 'choices'")
     print("Please check your API key or internet connection.")
+The welcome message and prompts create a friendly and engaging user experience, making the program easy to interact with
