@@ -11,11 +11,18 @@ api_key = "your-openai-api-key"
 def get_headers():
     return {
         "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
- ============================================================================
+        "Content-Type": "application/
+ =====================================================================
 # PROMPT ENGINEER - Input & Prompt
-# ============================================================================
+
+
+#=====================================================================
+
+The logic that distinguishes between a paragraph and a topic using word count is clever and makes the quiz generator more flexible for different user inputs.
+
+The prompt is clear and structured, guiding the AI to generate consistent multiple-choice questions with answers. This improves output quality.
+
+To enhance performance, you could refine the prompt further by specifying formatting (e.g., numbering questions or enforcing a strict output structure).
 user_input = input("Enter a topic OR paste a paragraph: ")
 difficulty = input("Enter difficulty (easy/medium/hard): ")
 
