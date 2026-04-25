@@ -82,5 +82,6 @@ if response.status_code == 200:
 else:
     print("Error: 'choices'")
     print("Please check your API key or internet connection.")
-The welcome message and prompts create a friendly and engaging user experience, making the program easy to interact with
-The progress message (“kindly wait Generating quiz...”) is useful for user feedback, especially during API delays
+#The welcome message and prompts create a friendly and engaging user experience, making the program easy to interact with
+#The progress message (“kindly wait Generating quiz...”) is useful for user feedback, especially during API delays
+# You could improve clarity by formatting outputs (e.g., adding spacing, headings, or separators between questions) to make the quiz easier to read.
