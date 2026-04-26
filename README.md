@@ -144,4 +144,4 @@ This project was built as a beginner-friendly introduction to working with APIs 
 
 ---
 
-**Build, learn, and improve your Quiz Generator! **
+
