@@ -1,3 +1,4 @@
+# INITIALIZE OPENAI API CONNECTION FOR QUIZE GENERATION
 # =============================================================================
 #   API SETUP & CONFIGURATION
 # Responsibility: Connect the program to OpenAI API
