@@ -54,7 +54,7 @@ Each question should have 4 options (A, B, C, D) and show the correct answer.
 
 #The API request is correctly structured with headers and JSON payload, showing a good understanding of how to interact with external APIs.
 
-#Using "max_tokens": 250 is a good attempt to control output size, but it may sometimes cut off responses. Consider increasing or dynamically adjusting it
+#Using "max_tokens": 600 is a good attempt to control output size, but it may sometimes cut off responses. Consider increasing or dynamically adjusting it
 headers = get_headers()
 
 data = {
@@ -62,7 +62,7 @@ data = {
     "messages": [
         {"role": "user", "content": prompt}
     ],
-    "max_tokens": 250
+    "max_tokens": 600
 }
 
 response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
